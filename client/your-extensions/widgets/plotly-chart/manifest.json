@@ -1,0 +1,16 @@
+{
+  "name": "plotly-chart",
+  "label": "Plotly Chart",
+  "type": "widget",
+  "version": "1.13.0",
+  "exbVersion": "1.13.0",
+  "author": "Sakil Ahmed | Geo-App Developer Team Lead | Esri Bangladesh Ltd. sakilcoder@gmail.com",
+  "description": "User can create Plotly Chart from this widget. Install plotly from root `npm install plotly.js react-plotly.js`",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ]
+  
+}

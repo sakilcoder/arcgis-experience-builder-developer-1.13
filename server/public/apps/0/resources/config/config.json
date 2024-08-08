@@ -1,0 +1,118 @@
+{
+  "pages": {
+    "page_1": {
+      "id": "page_1",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_32"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page 2",
+      "header": false,
+      "footer": false
+    }
+  },
+  "layouts": {
+    "layout_31": {
+      "type": "FIXED"
+    },
+    "layout_32": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "15.1%",
+            "bottom": "22.0%",
+            "width": "100.0%",
+            "height": "62.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    }
+  },
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/plotly-chart/",
+      "version": "1.13.0",
+      "label": "Plotly Chart",
+      "config": {
+        "exampleConfigProperty": "test",
+        "xField": [
+          "last_updated"
+        ],
+        "yField": [
+          "humidity_out_last"
+        ],
+        "yField2": [
+          "dew_point_out_last"
+        ]
+      },
+      "id": "widget_1",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    }
+  },
+  "exbVersion": "1.13.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/vivid/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "jewelrybox",
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "FEATURE_LAYER",
+      "url": "https://services6.arcgis.com/GSmivH6SDPJo4EVq/ArcGIS/rest/services/weather_data/FeatureServer/0",
+      "layerId": "0",
+      "sourceLabel": "weather_data"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "page_1": []
+    }
+  ],
+  "timestamp": 1723150726184,
+  "header": {
+    "layout": {
+      "LARGE": "layout_31"
+    },
+    "height": {
+      "LARGE": 75
+    }
+  },
+  "originExbVersion": "1.13.0",
+  "controllerPanels": {},
+  "attributes": {
+    "portalUrl": "https://geoappdev.maps.arcgis.com"
+  },
+  "sharedThemeVariables": null,
+  "customTheme": {}
+}
